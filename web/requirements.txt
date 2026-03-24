@@ -1,0 +1,9 @@
+flask
+flask-cors
+gunicorn
+torch
+numpy
+scikit-learn
+requests
+duckduckgo-search
+beautifulsoup4
