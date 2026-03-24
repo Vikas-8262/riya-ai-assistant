@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pth
+*.pkl
+riya_memory.json
+generated_images/
+known_faces/
+face_data.pkl
+.env
+.venv/
+venv/
+*.log

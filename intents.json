@@ -1,0 +1,86 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "good morning",
+                "good evening",
+                "what's up"
+            ],
+            "responses": [
+                "Hello! How can I help you?",
+                "Hey there!",
+                "Hi! Nice to meet you!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you",
+                "later",
+                "take care"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you later!",
+                "Take care!"
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "what time is it",
+                "tell me the time",
+                "current time",
+                "what's the time"
+            ],
+            "responses": [
+                "__TIME__"
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": [
+                "what is today",
+                "today's date",
+                "what date is it",
+                "current date"
+            ],
+            "responses": [
+                "__DATE__"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "who are you",
+                "your name",
+                "what should I call you"
+            ],
+            "responses": [
+                "I'm NeuralBot, your AI assistant built from scratch!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thanks",
+                "thank you",
+                "that's helpful",
+                "awesome",
+                "great"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "Anytime!"
+            ]
+        }
+    ]
+}
