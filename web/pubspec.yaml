@@ -1,0 +1,21 @@
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+```
+
+**Step 5 — Run Flutter app:**
+```
+flutter pub get
+flutter run
+```
+
+---
+
+## Deploy to Render.com
+
+**Step 1 — Push all files to GitHub:**
+```
+git add .
+git commit -m "Add web and mobile app"
+git push
