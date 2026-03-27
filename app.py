@@ -12,9 +12,13 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from tokenizer import bag_of_words
 from model import NeuralNet
 
-app  = Flask(__name__,
-             template_folder="web/templates",
-             static_folder="web/static")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+template_dir = os.path.join(BASE_DIR, 'web', 'templates')
+static_dir = os.path.join(BASE_DIR, 'web', 'static')
+
+app = Flask(__name__, 
+            template_folder=template_dir, 
+            static_folder=static_dir)
 CORS(app)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
