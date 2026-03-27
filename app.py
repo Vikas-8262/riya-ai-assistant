@@ -78,22 +78,3 @@ def health():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False)
-
-Press **Ctrl+S**
-
-
-
-**Step 3 — Update Procfile:**
-
-**code Procfile**
-
-**Make sure it contains exactly:**
-
-**web: gunicorn app:app**
-
-
-**Step 4 — Push:**
-
-**git add .**
-**git commit -m "Fix app.py in root folder"
-**git push**
