@@ -7,3 +7,4 @@ scikit-learn
 requests
 duckduckgo-search
 beautifulsoup4
+groq
